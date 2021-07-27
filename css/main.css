@@ -396,6 +396,10 @@ section#section-4 {
   width: 400px;
 }
 
+/*
+   =============================================
+*/
+
 #nav-menu {
   position: fixed;
   top: 10em;
@@ -410,20 +414,25 @@ section#section-4 {
 
 #nav-menu li a {
   background-color: #fff;
-  padding: 1.4em 1em;
-  border-radius: 6px;
+  margin-bottom: 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding: 0.4em;
   text-decoration: none;
   font-size: 14px;
   color: rgb(0, 8, 34);
   font-weight: bold;
+  border-radius: 50%;
   -webkit-transition: all ease-in 0.2s;
   transition: all ease-in 0.2s;
+  text-indent: -9999px;  
 }
 
 #nav-menu li a:hover {
   background-color: #5ed1cb;
   color: #fff;
-  padding-bottom: 2.2em;
+  padding: 0.6em;
 }
 
 .progress {
